@@ -17,12 +17,14 @@ header img {
 	margin-top: 12px;
 }
 
+/* substituida pelo container do bootstrap
 .container {
 	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px; 
 	margin: 0 auto;
 }
+*/
 
 #planos {
 	padding: 80px 0;	
@@ -39,6 +41,7 @@ article {
 	padding: 10px;
 }
 
+/* Media querie substituida pelo grid css do bootstrap
 @media (min-width: 800px){
 	article {
 		width: 30%;
@@ -46,7 +49,7 @@ article {
 		margin-right: 5%;
 	}
 }
-
+*/
 article > h2 {
 	background-color: #65a4a7;
 	color: #fff;
