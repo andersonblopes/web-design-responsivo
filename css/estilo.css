@@ -36,10 +36,15 @@ header img {
 
 article {
 	border: 1px solid #25a4a7;
-	width: 30%;
 	padding: 10px;
-	float: left;
-	margin-right: 5%;
+}
+
+@media (min-width: 800px){
+	article {
+		width: 30%;
+		float: left;
+		margin-right: 5%;
+	}
 }
 
 article > h2 {
