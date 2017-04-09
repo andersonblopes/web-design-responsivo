@@ -6,63 +6,67 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Finanças</title>
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
-	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">	
+	<link rel="stylesheet" href="css/componentes.css">
 </head>
 <body>
-	<header>
+	<header class="layout-cabecalho">
 		<div class="container">
 			<img src="imagens/logo.jpg" width="130" height="40" >
 		</div>
 	</header>
 
-	<div id="planos">
+	<div id="planos" class="layout-planos">
 		<div class="container">
 			<div class="row"> 
-				<div class="col-sm-4"> 			
-					<article>
-						<h2>Autônomo</h2>
-						<div>R$ 60/mês</div>
-						<ul>
+				<div class="col-sm-4"> 	
+
+					<article class="plano">
+						<h2 class="plano__cabecalho">Autônomo</h2>
+						<div class="plano__preco">R$ 60/mês</div>
+						<ul class="plano__caracteristica">
 							<li>Até <strong>3</strong> usuários</li>
 							<li><strong>1 GB</strong> de armazenamento</li>
 							<li>Lançamentos ilimitados</li>
 							<li>Acesso com segurança</li>
 							<li>Sem fidelização</li>
 						</ul>
-						<footer>
-							<a href="#" class="botao">Contrate aqui!</a>
+						<footer class="plano__rodape">
+							<a href="#" class="botao botao--salvar"">Contrate aqui!</a>
 						</footer>
 					</article>
+
 				</div>
 				<div class="col-sm-4"> 			
-					<article>
-						<h2>Micro</h2>
-						<div>R$ 100/mês</div>
-						<ul>
+					<article class="plano">
+						<h2 class="plano__cabecalho">Micro</h2>
+						<div class="plano__preco">R$ 100/mês</div>
+						<ul class="plano__caracteristica">
 							<li>Até <strong>10</strong> usuários</li>
 							<li><strong>100 GB</strong> de armazenamento</li>
 							<li>Lançamentos ilimitados</li>
 							<li>Acesso com segurança</li>
 							<li>Sem fidelização</li>
 						</ul>
-						<footer>
-							<a href="#" class="botao">Contrate aqui!</a>
+						<footer class="plano__rodape">
+							<a href="#" class="botao botao--salvar"">Contrate aqui!</a>
 						</footer>
 					</article>
 				</div>
 				<div class="col-sm-4"> 			
-					<article>
-						<h2>Pequena</h2>
-						<div>R$ 130/mês</div>
-						<ul>
+					<article class="plano">
+						<h2 class="plano__cabecalho">Pequena</h2>
+						<div class="plano__preco">R$ 130/mês</div>
+						<ul class="plano__caracteristica">
 							<li>Até <strong>50</strong> usuários</li>
 							<li><strong>1 TB</strong> de armazenamento</li>
 							<li>Lançamentos ilimitados</li>
 							<li>Acesso com segurança</li>
 							<li>Sem fidelização</li>
 						</ul>
-						<footer>
-							<a href="#" class="botao">Contrate aqui!</a>
+						<footer class="plano__rodape">
+							<a href="#" class="botao botao--salvar">Contrate aqui!</a>
 						</footer>
 					</article>	
 				</div>		
