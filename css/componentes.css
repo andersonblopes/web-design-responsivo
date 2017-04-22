@@ -75,3 +75,54 @@ BOTÃO
 .botao--salvar:hover, .botao--salvar:focus {
 	background-color: orange;
 }
+
+.botao--principal {
+	border-radius: 8px;  
+
+	background-color: #544464;
+}
+
+.botao--principal:hover, .botao--principal:focus {
+	background-color: #243464;
+}
+
+/*-----------------------*\
+CHAMADA
+\*-----------------------*/
+
+.chamada {
+	font-size: 1.6rem; /* 1.6 * 10px = 16px */
+	text-align: center;
+}
+
+.chamada__titulo {
+	margin: 0;
+
+	color: gold;
+
+	font-size: 3.375em; /* 54 / 16px = 3.375 */
+	line-height: 0.9;
+	text-shadow: 2px 2px #313131;
+}
+
+.chamada__subtitulo {
+	margin: 40px 0;
+
+	color: #fff;
+
+	font-size: 1em;
+}
+
+.chamada__acao {
+	font-size: 1em;
+
+}
+
+@media(min-width: 992px){
+	.chamada {
+		padding-left: 10%;
+		padding-right: 10%;
+
+		font-size: 2.2rem;
+	}
+}
