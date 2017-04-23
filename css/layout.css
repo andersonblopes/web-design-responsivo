@@ -35,11 +35,17 @@
 }
 
 .layout-rodape {
-	padding: 40px 0;
+	padding: 20px 0;
 
 	background-color: #484848;
 
 	color: #b1b2b3;
 
 	text-align: center;
+}
+
+@media(max-width: 767px){
+	.layout-planos .row > div:not(.ultima-coluna) {
+		margin-bottom: 40px;
+	}	
 }
