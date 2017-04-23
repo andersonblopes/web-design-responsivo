@@ -200,3 +200,35 @@ DEPOIMENTO
 .depoimento__autor > p {
 	margin-top: 10px;
 }
+
+/*-----------------------*\
+NAVEGAÇÃO
+\*-----------------------*/
+
+.navegacao {
+}
+
+.navegacao__menu {
+	float: right;
+}
+
+/*-----------------------*\
+BOTAO-CHAVEADOR
+\*-----------------------*/
+
+.botao-chaveador {
+	width: 24px;
+	height: 24px;
+	border: 0;
+
+	background: none;
+	background-image: url("../imagens/bars.png");
+
+	outline: none;
+}
+
+@media(min-width: 992px) {
+  .botao-chaveador {
+    display: none;
+  }
+}
