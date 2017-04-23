@@ -21,3 +21,13 @@
 	padding: 80px 0;
 	background-color: #d7c7d7; 	
 }
+
+.layout-rodape {
+	padding: 40px 0;
+
+	background-color: #484848;
+
+	color: #b1b2b3;
+
+	text-align: center;
+}
