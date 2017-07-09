@@ -1,230 +1,192 @@
-/*-----------------------*\
-PLANO
-\*-----------------------*/
-
+/*--------------------*\
+  PLANO
+\*--------------------*/
 .plano {
-	position: relative;
-
-	border: 1px solid #25a4a7;
-	padding: 10px;
-
-	font-size: 1.4rem;
+  position: relative;
+  padding: 10px;
+  border: 1px solid #95a4a5;
+  font-size: 1.4rem; /* 14px */
 }
 
 .plano--mais-popular::after {
-	position: absolute;
-	top: -10px;
-	right: -10px;
-
-	padding: 0px 10px;
-
-	background-color: #c34014;
-	color: #ccc;
-
-	font-size: 0.7142em; /*10 / 14 = */
-	line-height: 2.5;
-
-	content: "MAIS VENDIDO!"
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  padding: 0 10px;
+  background-color: #c20303;
+  color: #fff;
+  font-size: 0.7142em; /* 10px */
+  line-height: 2.5;
+  content: "MAIS POPULAR";
 }
 
 .plano__cabecalho {
-	margin: -10px;
-	margin-bottom: 0;
-
-	background-color: #65a4a7;
-	color: #fff;
-
-	text-align: center;
-	line-height: 1.8;
-	font-weight: normal;
-	font-size: 2em;
+  margin: -10px;
+  margin-bottom: 0;
+  background-color: #95a4a5;
+  color: #fff;
+  text-align: center;
+  line-height: 2.5;
+  font-weight: normal;
+  font-size: 2em;
 }
 
 .plano__preco {
-	margin:  20px 0;
-
-	text-align: center;
-	font-size: 2em;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 2em;
 }
 
-.plano__caracteristica {
-	padding: 0;
-	margin: 20px 0;
-
-	font-size: 1em;
-
-	list-style: none;
+.plano__caracteristicas {
+  padding: 0;
+  margin: 20px 0;
+  font-size: 1em;
+  list-style: none;
 }
 
-.plano__caracteristica > li {
-	text-align: center;
+.plano__caracteristicas > li {
+  text-align: center;
 }
 
 .plano__rodape {
-	text-align: center;
+  text-align: center;
 }
 
-/*-----------------------*\
-BOTÃO
-\*-----------------------*/
-
+/*--------------------*\
+  BOTAO
+\*--------------------*/
 .botao {
-	padding: 0.8em 1.2em;
-	display: inline-block;
-
-	background-color: #bbb;
-	color: #fff;
-	
-	font-size: 1em;
-	text-decoration: none;
+  display: inline-block;
+  padding: 0.8em 1.2em;
+  background-color: #bbb;
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 .botao:hover, .botao:focus {
-	background-color: #aaa;
-	color: #fff;
-
-	text-decoration: none;
+  background-color: #aaa;
+  color: #fff;
+  text-decoration: none;
 }
 
-.botao--salvar {
-	background-color: #127d00;
+.botao--assinar {
+  background-color: #127d00;
 }
 
-.botao--salvar:hover, .botao--salvar:focus {
-	background-color: orange;
+.botao--assinar:hover, .botao--assinar:focus {
+  background-color: #0e6400;
 }
 
 .botao--principal {
-	border-radius: 8px;  
-
-	background-color: #544464;
+  border-radius: 10px;
+  background-color: #004b86;
 }
 
 .botao--principal:hover, .botao--principal:focus {
-	background-color: #243464;
+  background-color: #003b6a;
 }
 
-/*-----------------------*\
-CHAMADA
-\*-----------------------*/
-
+/*--------------------*\
+  CHAMADA
+\*--------------------*/
 .chamada {
-	font-size: 1.6rem; /* 1.6 * 10px = 16px */
-	text-align: center;
+  font-size: 1.6rem; /* 1.6 * 10px = 16px */
+  text-align: center;
 }
 
 .chamada__titulo {
-	margin: 0;
-
-	color: gold;
-
-	font-size: 3.375em; /* 54 / 16px = 3.375 */
-	line-height: 0.9;
-	text-shadow: 2px 2px #313131;
+  margin: 0;
+  color: #fff;
+  font-size: 3.375em; /* 54px / 16px = 3.375 */
+  line-height: 0.9;
+  text-shadow: 1px 1px #313131;
 }
 
 .chamada__subtitulo {
-	margin: 40px 0;
-
-	color: #fff;
-
-	font-size: 1em;
+  margin: 60px 0;
+  color: #fff;
+  font-size: 1em;
 }
 
 .chamada__acao {
-	font-size: 1em;
-
+  font-size: 1em;
 }
 
-@media(min-width: 992px){
-	.chamada {
-		padding-left: 10%;
-		padding-right: 10%;
-
-		font-size: 2.2rem;
-	}
+@media(min-width: 992px) {
+  .chamada {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 2.2rem; /* 2.2 * 10px = 22px */
+  }
 }
 
-/*-----------------------*\
-DEPOIMENTO
-\*-----------------------*/
-	
+/*--------------------*\
+  DEPOIMENTO
+\*--------------------*/
 .depoimento {
-	font-size: 2.0rem; /* 20px*/
+  font-size: 2.2rem; /* 22px */
 }
 
-@media(min-width: 992px){
-	.depoimento {
-		padding-left: 15%;
-		padding-right: 15%;
-
-		font-size: 3.0rem;
-	}
+@media(min-width: 992px) {
+  .depoimento {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 2.8rem;
+  }
 }
 
 .depoimento > blockquote {
-	position: relative;
-
-	margin: 0;
-	padding: 0 50px;
-
-	text-align: center;
-	font-size: 1em;
+  position: relative;
+  margin: 0;
+  padding: 0 60px;
+  text-align: center;
+  font-size: 1em;
 }
 
 .depoimento > blockquote::before {
-	position: absolute;
-	top: -0.30em;
-	left: 0;
-
-	color: #ddd;
-
-	font-size: 5em;
-
-	content: "\201C";
-
+  position: absolute;
+  left: 0;
+  top: -0.35em;
+  color: #ccc;
+  font-size: 8em; /* 176px */
+  content: "\201C";
 }
 
 .depoimento__autor {
-	margin-top: 45px;
-
-	text-align: center;
-	font-size: 0.6565em;
-
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.7272em;
 }
 
 .depoimento__autor > img {
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
 .depoimento__autor > p {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
-/*-----------------------*\
-NAVEGAÇÃO
-\*-----------------------*/
-
+/*--------------------*\
+  NAVEGACAO
+\*--------------------*/
 .navegacao {
 }
 
 .navegacao__menu {
-	float: right;
+  float: right;
 }
 
-/*-----------------------*\
-BOTAO-CHAVEADOR
-\*-----------------------*/
-
+/*--------------------*\
+  BOTAO-CHAVEADOR
+\*--------------------*/
 .botao-chaveador {
-	width: 24px;
-	height: 24px;
-	border: 0;
-
-	background: none;
-	background-image: url("../imagens/bars.png");
-
-	outline: none;
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background: none;
+  background-image: url("../imagens/bars.png");
+  outline: none;
 }
 
 @media(min-width: 992px) {

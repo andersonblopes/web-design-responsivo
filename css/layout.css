@@ -1,48 +1,42 @@
 .layout-cabecalho {
-	height: 60px;
-	line-height: 60px;
-	border-bottom: 1px solid #bbb;
-
-	background-color: #fff;
-
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
 }
 
 .layout-cabecalho--home {
-	position: fixed;
-	right: 0;
-	left: 0;
-	top: 0;
-	z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 .layout-planos {
-	padding: 80px 0;	
+  padding: 80px 0;
 }
 
 .layout-chamada {
-	margin-top: 60px;
-	padding: 80px 0;	
-
-	background-color: green;
+  padding: 80px 0;
+  margin-top: 60px;
+  background-color: #7ab55c;
 }
 
 .layout-depoimento {
-	padding: 80px 0;
-	background-color: #d7c7d7; 	
+  padding: 80px 0;
+  background-color: #e7e7e7;
 }
 
 .layout-rodape {
-	padding: 20px 0;
-
-	background-color: #484848;
-
-	color: #b1b2b3;
-
-	text-align: center;
+  padding: 40px 0;
+  background-color: #484848;
+  color: #fff;
+  text-align: center;
 }
 
-@media(max-width: 767px){
-	.layout-planos .row > div:not(.ultima-coluna) {
-		margin-bottom: 40px;
-	}	
+@media(max-width: 749px) {
+  .layout-planos .row > div:not(.ultima-coluna) {
+    margin-bottom: 40px;
+  }
 }
